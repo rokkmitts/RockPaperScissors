@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: none;
+}
+html,
+body {
+  overflow: hidden;
+}
+#body {
+  background: url("./media/BG3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  color: yellow;
+  font-size: 36;
+  font-family: rocketwildness;
+  font-weight: 900;
+  text-align: center;
+  list-style-type: none;
+  text-shadow: 1.5px 2px rgb(255, 64, 0);
+  text-transform: uppercase;
+}
+
+#logo {
+  letter-spacing: 4px;
+}
+
+#submit {
+  display: flex;
+  margin: 0 auto;
+  background-color: rgba(37, 36, 36, 0.521);
+
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: yellow;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: 1.5px 2px rgb(255, 64, 0);
+}
