@@ -20,11 +20,15 @@ body {
   min-height: 100vh;
 }
 
-nav ul {
+nav ul,
+footer ul,
+#battle-prompt {
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  align-items: center;
   color: yellow;
-  font-size: 36;
+  font-size: 1.5em;
   font-family: rocketwildness;
   font-weight: 900;
   text-align: center;
@@ -33,17 +37,31 @@ nav ul {
   text-transform: uppercase;
 }
 
-#logo {
-  letter-spacing: 4px;
+#battle-prompt {
+  max-width: 100%;
+  padding: 8px;
+  border: 2px rgba(255, 255, 0, 0.492) solid;
+  border-radius: 10px;
 }
 
-#submit {
+#sandbox {
+  margin-top: 35em;
+}
+
+footer ul {
+  padding-right: 5em;
+}
+
+#logo {
+  letter-spacing: 25px;
+}
+
+#btn-shoot {
   display: flex;
   margin: 0 auto;
   background-color: rgba(37, 36, 36, 0.521);
-
   padding: 4px 8px;
-  border-radius: 5px;
+  border-radius: 10px;
   color: yellow;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
