@@ -5,41 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock-Paper-SCISSORS!!!</title>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="./style.css" />
+    <script src="script.js"></script>
   </head>
 
   <body id="body">
     <div id="container">
       <nav>
         <ul>
-          <li class="round-status">
-            1UP <br />
-            <p class="round-count"></p>
-          </li>
           <li id="logo">
             ROCK <br />
             PAPER<br />
             SCISSORS
           </li>
-          <li>
-            HI-SCORE <br />
-            <p class="high-score"></p>
-          </li>
         </ul>
       </nav>
-
       <div id="sandbox">
+        <form>
+          <input id="answer" type="text" placeholder="ANSWER HERE" />
+          <input
+            id="button"
+            type="button"
+            value="submit"
+            onclick="plyrFX('stringValue')"
+          />
+        </form>
         <div class="message">
-          <h1 id="battle-prompt">GET READY !</h1>
+          <h1 id="prompt">GET READY !</h1>
         </div>
 
         <footer>
           <ul>
             <li>PLAYER1<br /><span class="player-score"></span>0</li>
-            <div>
-              <button id="btn-shoot">SHOOT !</button>
-            </div>
+            <div></div>
             <li>CPU<br /><span class="cpu-score">0</span></li>
           </ul>
         </footer>
