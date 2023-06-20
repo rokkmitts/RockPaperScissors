@@ -23,10 +23,10 @@ Regarding HTML:
 The; onlick="" within html tags allows us to pass function calls directly with a specific arguement value.
 
 Regarding JS: (different use cases)
-innerHTML
-textContent
-Value
-window.onload
+innerHTML: allowed me to change the h1 text based on variable values
+textContent:
+Value: allowed me to target input textbox text and store it in a variable
+window.onload:
 \*/
 
 <!-- Functions that were redesigned for readability -->
@@ -39,10 +39,14 @@ cpuSelection === 'rock'
 if(GENnum === 1) <!--ANOTHER WAY I ATTEMPTED IT -->
 cpuSelection === arr[1]
 ....etc...etc
-}...confusing as Fuh right?!?!?... learned a better way and explained in point 3 below! :D
+}.
+
+<!-- The better way below -->
 
 /\*
-
+When using a function to loop over an array that uses arithamtic to randomly select one of its elements.
+its important to declare a global variable which will be set to the value of the random selection.
+To avoid multiple iterations, retun the variable outside of the loop
 \*/
 
 <!-- gets value from textbox -->
