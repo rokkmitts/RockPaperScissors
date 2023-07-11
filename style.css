@@ -11,29 +11,15 @@ body {
   overflow: hidden;
 }
 
-#body {
+body {
   background: url("./media/BG3.jpg");
   background-size: cover;
   background-position: center;
 }
 
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#logo {
+nav ul {
   letter-spacing: 25px;
-}
-
-#sandbox {
-  margin-top: 10em;
-}
-
-nav ul,
-footer ul,
-#prompt {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: space-around;
   align-items: center;
@@ -45,70 +31,4 @@ footer ul,
   list-style-type: none;
   text-shadow: 1.5px 2px rgb(238, 0, 255);
   text-transform: uppercase;
-}
-
-#prompt {
-  max-width: 100%;
-  padding: 2px;
-  border: 2px rgba(255, 255, 0, 0.492) solid;
-  border-radius: 10px;
-}
-
-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: yellow;
-  background: none;
-  font-size: 2.5em;
-  font-family: rocketwildness;
-  font-weight: 900;
-  text-align: center;
-  list-style-type: none;
-  text-shadow: 1.5px 2px rgb(255, 64, 0);
-  text-transform: uppercase;
-}
-
-button {
-  max-width: 100%;
-  padding: 8px;
-  border: 2px rgba(196, 82, 182, 0.355) solid;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(207, 207, 29);
-  background: #1e1e1ddf;
-  font-size: 0.5em;
-  font-family: rocketwildness;
-  font-weight: 900;
-  text-align: center;
-  list-style-type: none;
-  text-shadow: 1.5px 2px rgb(192, 59, 15);
-  text-transform: uppercase;
-}
-
-#answer {
-  margin-left: 25px;
-  padding: 10px;
-  background-color: #ffffff1e;
-  border-radius: 45px;
-  border-color: #686868b2;
-  font-family: rocketwildness;
-  color: rgb(255, 255, 255);
-  text-shadow: 1.5px 2px #ccff00;
-  text-transform: uppercase;
-  font-weight: 900;
-}
-
-.message {
-  margin-top: 10em;
-}
-
-footer ul {
-  padding-right: 5em;
-}
-
-footer ul li {
-  letter-spacing: 15px;
 }
