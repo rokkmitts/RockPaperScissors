@@ -1,30 +1,18 @@
 # RockPaperScissors
 
-<!-- Step 1: (UI) -->
+reuse the exisiting project but add buttons for answer selection
 
-Retro themed Rock Paper Scissors game
+what ive learned during this projects process
 
-<!-- Step 2: (HOW IT WORKS) -->
+<!--
+REVISITING PROJECT PART #2;
 
-_1_ on button click, a function must process random answer and assign it to; cpuSelection
-_2_ simutaneously the text box value is check against answerKey array. Based off the value it is either saved or the user it told to enter a valid value
-_3_ valid values are stored in playerSelection and another function compares it aginst cpuSelection
-_4_ The outcome will favor the winner; +1 points and annoucing who won the round
-_5_ when either player reaches 5 points the UI resets the window
+1) textContent will pickup /n new lines or spaces in text. which will render values for strict comparison unequal even when they have identical text
 
-<!-- THINGS LEARNED DURING THIS PROJECT -->
+2) innerHTML used on elements that recieve unsantiszed user inputs are high rosk for js script injection. vulnerability can be hacked  using; img, element to inject js
 
-_1_ querySelector; links to the first class or id ONLY. multiple uses will be ignored after the first declaration
-_2_ A better way to make a variable equate to a random element of an array using arithmatic:
-_3_ Dont forget initial variable declarations without assigning them value
+3) Adding numbers to scores
+us ++ instead of +=. += will just add the specified value inline ie; 0111. while ++ will add values to sum ie 0, 1, 2, etc.
 
-/\*
-Regarding HTML:
-The; onlick="" within html tags allows us to pass function calls directly with a specific arguement value.
-
-Regarding JS: (different use cases)
-innerHTML: allowed me to change the h1 text based on variable values
-textContent:
-Value: allowed me to target input textbox text and store it in a variable
-window.onload:
-\*/
+4) The disabled propwrty is avaible every button element. set it equal to boolean
+-->

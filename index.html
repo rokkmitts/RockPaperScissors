@@ -6,21 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock-Paper-SCISSORS!!!</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="script.js" defer></script>
   </head>
 
-  <body>
-    <nav>
-      <ul>
-        <li>ROCK</li>
-        <li>PAPER</li>
-        <li>SCISSORS</li>
-      </ul>
-    </nav>
-    <div class="container">
-      <div id="buttons">
-        <button class="button-rock"></button>
-        <button class="button-paper"></button>
-        <button class="button-scissors"></button>
+  <body id="body">
+    <div id="container">
+      <nav>
+        <ul>
+          <li id="logo">
+            ROCK <br />
+            PAPER<br />
+            SCISSORS
+          </li>
+        </ul>
+      </nav>
+      <div id="sandbox">
+        <div class="buttons">
+          <button id="rockBtn" class="Btn" value="rock">rock</button>
+          <button id="paperBtn" class="Btn" value="paper">paper</button>
+          <button id="srsBtn" class="Btn" value="scissors">scissors</button>
+        </div>
+
+        <div class="message">
+          <h1 id="prompt">GET READY !</h1>
+        </div>
+
+        <footer>
+          <div id="scores">
+            <div id="playerBoard">
+              <ul>
+                <li class="playerID">user:</li>
+                <li id="playerScore">0</li>
+              </ul>
+            </div>
+            <div id="cpuBoard">
+              <ul>
+                <li class="cpuID">cpu:</li>
+                <li id="cpuScore">0</li>
+              </ul>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   </body>
